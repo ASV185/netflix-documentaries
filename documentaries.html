@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+    <title>Documentaries</title>
+</head>
+<style>
+    body {
+        background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/093/040/original/lighter-theme-netflix.jpg?1691812051");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .container {
+        max-width: 600px;
+        background: white;
+        border-radius: 20px;
+        text-align: center;
+        margin: 20px auto;
+        padding: 20px;
+        font-family: 'Josefin Sans', sans-serif;
+    }
+
+    h1 {
+        text-align: center;
+        font-size: 50px;
+        padding: 20px;
+    }
+
+    .theme-button {
+        display: block;
+        margin: 0 auto;
+        background: black;
+        color: white;
+        border: none;
+        padding: 15px 20px;
+        border-radius: 5px;
+        font-size: 17px;
+        font-family: 'Josefin Sans', sans-serif;
+        box-shadow: 0 5px 5px black;
+    }
+
+    .theme-button:hover {
+        background: white;
+        color: red;
+        cursor: pointer;
+        font-weight: bold;
+        box-shadow: 5px 5px black;
+    }
+
+    .sign-up-for-netflix-subscription {
+        background-color: red;
+        color: white;
+        font-size: 15px;
+        text-decoration: none;
+        padding: 10px 15px;
+        border-radius: 10px;
+        border: none;
+        transition: all 150ms ease-in;
+    }
+
+    .sign-up-for-netflix-subscription:hover {
+        cursor: pointer;
+        font-weight: bold;
+        background-color: white;
+        color: black;
+        border: 1px solid black;
+
+    }
+
+    .the-lady-of-silence {
+        width: 100%;
+        border-radius: 10px;
+        transition: all 150ms ease-in-out;
+    }
+
+    .the-lady-of-silence:hover {
+        filter: contrast(80%);
+        transform: scale(1.125);
+    }
+
+    .grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 15px;
+    }
+
+    .grid img {
+        width: 100%;
+        border-radius: 10px;
+    }
+
+    .grid img:hover {
+        cursor: pointer;
+    }
+
+    img {
+        width: 25%;
+    }
+
+    footer {
+        color: black;
+        text-align: center;
+        font-family: 'Josefin Sans', sans-serif;
+        font-weight: bold;
+    }
+
+    .open-sourced-code {
+        color: black;
+        text-decoration: none;
+    }
+
+    .open-sourced-code:hover {
+        text-decoration: underline;
+        color: white;
+    }
+
+    .change-theme {
+        background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/093/270/original/dark-netflix-theme.jpg?1691943767");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .change-theme .theme-button {
+        background-color: white;
+        color: red;
+        font-weight: bold;
+    }
+
+    .change-theme .theme-button:hover {
+        background-color: black;
+        color: white;
+        cursor: pointer;
+    }
+
+    .change-theme .container {
+        background-color: rgb(231, 117, 117);
+    }
+
+    .change-theme .container p {
+        color: white;
+    }
+
+    .change-theme .container h1 {
+        color: white;
+        text-shadow: 0 2px 2px black;
+    }
+
+    .change-theme .container a {
+        background-color: black;
+        color: white;
+        text-decoration: none;
+    }
+
+    .change-theme .container a:hover {
+        background-color: white;
+        color: black;
+        cursor: pointer;
+    }
+
+    .change-theme footer {
+        color: white;
+        text-shadow: 0 2px 2px black;
+    }
+
+    .change-theme footer a {
+        color: white;
+        text-shadow: 0 2px 2px black;
+    }
+
+    .change-theme footer a:hover {
+        color: red;
+        text-decoration: underline;
+    }
+</style>
+
+<body>
+    <button class="theme-button">Change Theme</button>
+    <div class="container">
+        <h1>Netflix Documentaries</h1>
+        <a href="https://netflixlife.com/2023/07/27/lady-of-silence-the-mataviejitas-murders-netflix-plot-synopsis/"
+            target="_blank">
+            <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/093/049/original/the-lady-in-silence.jpg?1691812372"
+                alt="the lady of silence" class="the-lady-of-silence" />
+        </a>
+        <div class="grid">
+            <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/093/046/original/tinder-swindler.jpeg?1691812314"
+                alt="tinder-swindler" class="tinder-swindler" /> <img
+                src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/093/042/original/keep-sweet-pray-and-obey.jpeg?1691812259"
+                alt="keep-sweet-pray-and-obey" class="keep-sweet-pray-and-obey" /> <img
+                src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/093/041/original/girl-in-the-picture.jpeg?1691812247"
+                alt="girl-in-the-picture" class="girl-in-the-picture" /> <img
+                src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/093/044/original/raincoat-killer.jpeg?1691812284"
+                alt="raincoat-killer" class="raincoat-killer" />
+        </div>
+        <p>
+            Netflix has many documentaries, series, and movies to watch. From all of these, documentaries tend to stick
+            out the most out of the various streamers such as apple, starz, amazon prime, and hulu. If interested, you
+            can always pay for a subscription monthly.
+        </p>
+        <a href="https://www.netflix.com/" target="_blank" class="sign-up-for-netflix-subscription">
+            Sign up for Netflix Subscription
+        </a>
+    </div>
+    <footer>
+        Coded by <a href="file:///C:/Users/Amanda%20Ventura/OneDrive/Documents/documentaries/documentaries.html"
+            target="_blank" class="open-sourced-code"> Amanda Ventura </a>and background image by Souvik
+        Banerjee
+    </footer>
+    <script>
+        function changeTheme() {
+            let body = document.querySelector("body");
+
+            //body.classList.toggle("change-theme");
+
+            if (body.classList.contains("change-theme")) {
+                body.classList.remove("change-theme");
+            } else {
+                body.classList.add("change-theme");
+            }
+        }
+
+        let themeButton = document.querySelector(".theme-button");
+        themeButton.addEventListener("click", changeTheme);
+    </script>
+</body>
+
+</html>
